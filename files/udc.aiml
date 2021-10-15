@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+    <pattern>hello</pattern>
+    <template>hi there</template>
+</category>
+<category>
+    <pattern>hi</pattern>
+    <template><srai>HELLO</srai></template>
+</category>
+<category>
+    <pattern>howdy</pattern>
+    <template><srai>HELLO</srai></template>
+</category>
+<category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>my name is sadiqa</template>
+</category>
+<category>
+    <pattern>CAN YOU TELL ME YOUR NAME</pattern>
+    <template><srai>WHAT IS YOUR NAME</srai></template>
+</category>
+<category>
+    <pattern>What is your age</pattern>
+    <template>i am 19 years old</template>
+</category>
+<category>
+    <pattern>CAN YOU TELL ME *</pattern>
+    <template><srai>what is <star/></srai></template>
+</category>
+<category>
+    <pattern>_ACTUAL*</pattern>
+    <template><srai><star index="1"/><star index="2"/></srai></template>
+</category>
